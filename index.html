@@ -31,8 +31,44 @@
     <div>
       <label for="positivo">Puntos positivos</label>
       <textarea id="positivo"></textarea>
-     
+
     </div>
+    <div>
+      <label for="negativo">Puntos negativos</label>
+      <textarea id="negativo">Puntos negativos</textarea>
+    </div>
+    <div>
+      <label for="opinion_envio">Como califica la rapidez del envío</label>
+      <input id="opinion_envio" type="radio" value="Excelente" name="opinion_envio">Excelente
+      <input id="opinion_envio" type="radio" value="Buena" name="opinion_envio">Buena
+      <input id="opinion_envio" type="radio" value="Regular" name="opinion_envio">Regular
+      <input id="opinion_envio" type="radio" value="Pesima" name="opinion_envio">Pésima
+    </div>
+
+    <div>
+      <label for="servicio">Como califica el servicio</label>
+      <input type="checkbox" name="servivio" value="excelente">Excelente
+      <input type="checkbox" name="servivio" value="buena">Buena
+      <input type="checkbox" name="servivio" value="regular">Regular
+      <input type="checkbox" name="servivio" value="pesima">Pésima
+    </div>
+
+    <div>
+      <label for="calidad">Calidad del producto</label>
+      <select id="calidad" name="calidad" size="5">
+
+        <option>Excelente</option>
+        
+        <option>Buena</option>
+        
+        <option>Regular</option>
+
+        <option>Pésima</option>
+        
+        </select>
+    </div>
+    <input type="submit" value="Enviar">
+
   </form>
 </body>
 </html>
